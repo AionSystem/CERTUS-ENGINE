@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1198800128.svg)](https://doi.org/10.5281/zenodo.19373724)
 # CERTUS Engine v2.5
 
 > **Certainty Engineering for Crisis Data**
