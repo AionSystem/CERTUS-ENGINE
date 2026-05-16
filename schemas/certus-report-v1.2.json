@@ -1,0 +1,97 @@
+{
+  "_schema": "certus-report-v1.2",
+  "_changelog": "Added integrity_seal, input_hash, output scoring fields (dci_priority, dci_raw, dci_spatial_cluster, dci_criticality_multiplier, dci_criticality_reason, dci_decay_reconciliation, language_mismatch). Defined human_review_proof sub‑schema. Updated engine_target to 3.2.1. Added backward‑compatibility note.",
+  "_generated": "2026-05-16T00:00:00.000Z",
+  "_engine_target": "3.2.1",
+  "_backward_compatible_with": "1.0, 1.1",
+  "uuid": "auto-generated-by-engine",
+  "timestamp": "2026-05-16T14:30:00.000Z",
+  "language": "en",
+  "eventType": "earthquake",
+  "damage_classification": {
+    "undp_tier": "partial",
+    "internal_tier": "Partially damaged",
+    "description": "Significant structural damage to south wall. Roof intact. Windows destroyed."
+  },
+  "infrastructure": {
+    "type": "Residential",
+    "name": "Al-Rasheed Apartments, Block 7",
+    "other_spec": null
+  },
+  "crisis": {
+    "type": "Natural",
+    "subtype": "Earthquake",
+    "debris_clearing_required": true,
+    "electricity_condition": "Severe damage",
+    "health_services_status": "Partially functional",
+    "pressing_needs": [
+      "Shelter, housing repair, or temporary accommodation",
+      "Food assistance and safe drinking water",
+      "Access to healthcare and essential medicines"
+    ]
+  },
+  "location": {
+    "mode": "precise",
+    "lat": 33.5138,
+    "lng": 36.2765,
+    "text_description": "Corner of Al-Mazzeh Highway and Fourth Street, opposite the blue water tower",
+    "fuzzy_radius_m": null,
+    "building_footprint_selected": true,
+    "building_osm_id": "way/123456789"
+  },
+  "photo": {
+    "data_url": "data:image/jpeg;base64,...",
+    "exif_stripped": true,
+    "ai_score": 0.78,
+    "ai_confidence": 0.82,
+    "ai_model": "openrouter/gpt-4o-mini+claude-3.5-sonnet",
+    "photo_geotag": { "lat": 33.5138, "lng": 36.2765 },
+    "photo_accuracy": 3.5
+  },
+  "witness_statement": "The building shook violently. The south wall has a large crack from top to bottom. We cannot enter.",
+  "reporter": {
+    "id": "uuid-anonymous-reporter",
+    "anonymous": true,
+    "ip_logged": false,
+    "session_uuid": "session-uuid-here"
+  },
+  "certus_context": {
+    "is_real_model": false,
+    "stated_purpose": "disaster_response",
+    "ground_truth": null,
+    "human_review_proof": null,
+    "evidence_timestamp": null,
+    "recent_correlated_failure_rate": 0.0,
+    "tenant_id": "default"
+  },
+  "integrity_seal": {
+    "algorithm": "SHA-256",
+    "hash": "a3f2b8c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+    "payload": "{\"uuid\":\"...\",\"dci\":0.71,\"tier\":\"high\",\"timestamp\":\"2026-05-16T14:30:00.000Z\",\"version\":\"3.2.1\",\"tenant\":\"default\"}"
+  },
+  "input_hash": "sha256:7d4a2f1c8b3e5a9d0f2c4b6a8e1d3f5c7b9a2d4e6f8c1a3b5d7e9f0a2c4b6d8e",
+  "dci_raw": 0.71,
+  "dci_priority": 0.92,
+  "dci_spatial_cluster": {
+    "cluster_detected": false
+  },
+  "dci_progression": null,
+  "dci_criticality_multiplier": 1.5,
+  "dci_criticality_reason": "Life‑critical — hospital/clinic",
+  "dci_decay_reconciliation": {
+    "reconciled": false
+  },
+  "language_mismatch": false,
+  "appeal_status": {
+    "appeals_used": 0,
+    "appeals_remaining": 3,
+    "cumulative_ceiling_active": true
+  },
+  "model_limitations_acknowledged": true,
+  "metadata": {
+    "submission_channel": "web",
+    "app_version": "VERITAS v1.0",
+    "engine_version_at_submission": "3.2.1",
+    "submission_mode": "online"
+  }
+}
