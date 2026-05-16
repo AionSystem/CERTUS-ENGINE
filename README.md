@@ -10,12 +10,10 @@
 
 ---
 
-![Version](https://img.shields.io/badge/VERSION-3.0.0-152238?style=flat-square)
-![Status](https://img.shields.io/badge/STATUS-PRODUCTION--READY-1A6B3A?style=flat-square)
+![Version](https://img.shields.io/badge/VERSION-3.2.1-152238?style=flat-square)
 ![Audit](https://img.shields.io/badge/AUDIT-4--INSTRUMENT%20COMPLETE-1E4D8C?style=flat-square)
-![Findings](https://img.shields.io/badge/FINDINGS-25%20RESOLVED-4527A0?style=flat-square)
+![Findings](https://img.shields.io/badge/FINDINGS-57%20RESOLVED-4527A0?style=flat-square)
 ![License](https://img.shields.io/badge/LICENSE-Apache%202.0-B45309?style=flat-square)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 ---
