@@ -838,6 +838,12 @@ The v3.0.0 engine is the first artifact in the stack to undergo a complete four-
 
 *Sheldon K. Salmon & ALBEDO · AionSystem · May 2026*
 
+## License
+This project is licensed under the **Apache License, Version 2.0**.
+See the [LICENSE](LICENSE) file for details.
+
+**Retroactive Notice:** All previous versions of CERTUS Engine (including v2.5.2, v3.0.1, v3.1.0, and v3.2.0) are also released under the Apache License 2.0 as of May 16, 2026.
+
 </div>
 
 ---
