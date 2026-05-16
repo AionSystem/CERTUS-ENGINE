@@ -1,6 +1,6 @@
 # CERTUS Engine v3.2.1
 
-> **Certainty Engineering for Crisis Data — Sovereignty-Hardened**
+**Certainty Engineering for Crisis Data — Sovereignty-Hardened**
 
 CERTUS is the core scoring engine that powers VERITAS. It computes a **Damage Confidence Index (DCI)** for every report, along with an **Uncertainty Mass (UM)** that tells responders how much to trust the score itself.
 
